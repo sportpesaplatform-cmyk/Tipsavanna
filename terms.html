@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TipSavanna - Terms & Conditions</title>
+    <style>
+        :root {
+            --primary-dark: #0F3D2E;
+            --primary: #1B5E20;
+            --bg-light: #F8FAFC;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --border: #E2E8F0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #FFFFFF;
+            color: var(--text-dark);
+            line-height: 1.5;
+            padding-bottom: 60px; /* Space for the sticky ad banner */
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        /* Main Content Container */
+        .content-wrapper {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 18px;
+        }
+
+        /* Terms Header Block with Custom Gradient matching Flutter code */
+        .terms-header {
+            background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+            color: white;
+            padding: 18px;
+            border-radius: 16px;
+            margin-bottom: 14px;
+        }
+
+        .terms-header h2 {
+            font-size: 21px;
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .terms-header p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.35;
+        }
+
+        .last-updated {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        /* Term Card Sections */
+        .term-card {
+            background-color: white;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+            margin-bottom: 10px;
+        }
+
+        .term-card h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .term-card p {
+            font-size: 14px;
+            color: var(--text-dark);
+            line-height: 1.45;
+        }
+
+        /* Support Footer Widget */
+        .support-footer {
+            background-color: var(--bg-light);
+            border: 1px solid #CBD5E1;
+            border-radius: 14px;
+            padding: 14px;
+            margin-top: 16px;
+        }
+
+        .support-footer h4 {
+            font-weight: 800;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+
+        .support-footer .subtitle {
+            font-size: 14px;
+            color: var(--text-dark);
+            margin-bottom: 12px;
+        }
+
+        /* Action Chip Layout mimicking Flutter */
+        .chip-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            background-color: #E2E8F0;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-dark);
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .chip:hover {
+            background-color: #CBD5E1;
+        }
+
+        .chip svg {
+            margin-right: 6px;
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+
+        .contact-meta {
+            font-size: 13px;
+            color: var(--text-dark);
+            margin-top: 4px;
+        }
+
+        /* Bottom Sticky Ad Banner Shell */
+        .global-ad-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #EEF2F6;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: var(--text-muted);
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Terms & Conditions</h1>
+    </header>
+
+    <main class="content-wrapper">
+        
+        <div class="terms-header">
+            <h2>Terms You Can Understand</h2>
+            <p>Clear rules that protect members, platform integrity, and responsible usage.</p>
+        </div>
+        
+        <div class="last-updated">Last updated: July 2026</div>
+        <div class="section-title">Key Terms</div>
+
+        <div class="term-card">
+            <h3>Service Scope</h3>
+            <p>TipSavanna offers sports insights and analytical predictions for informational purposes. Outcomes are never guaranteed.</p>
+        </div>
+
+        <div class="term-card">
+            <h3>User Responsibility</h3>
+            <p>You are responsible for account credentials, legal compliance in your jurisdiction, and responsible use of betting information.</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Subscription Terms</h3>
+            <p>Premium access unlocks paid features. Billing, access windows, and renewals are managed per active plan and platform rules.</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Liability & Risk</h3>
+            <p>Betting carries risk. We are not liable for direct or indirect losses from decisions made using provided insights.</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Updates to Terms</h3>
+            <p>Terms may be updated to reflect legal, operational, or product changes. Continued use means acceptance of updated terms.</p>
+        </div>
+
+        <!-- Support Footer Panel -->
+        <div class="support-footer">
+            <h4>Questions About Terms?</h4>
+            <div class="subtitle">Designed & maintained by Pevah Tech Solutions</div>
+            <div class="chip-group">
+                <a href="https://wa.me/254714497853" target="_blank" class="chip">
+                    <!-- WhatsApp Icon -->
+                    <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+                    WhatsApp
+                </a>
+                <a href="sms:+254714497853" class="chip">
+                    <!-- SMS Icon -->
+                    <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM9 11H7V9h2v2zm4 0h-2V9h2v2zm4 0h-2V9h2v2z"/></svg>
+                    SMS
+                </a>
+                <a href="tel:+254714497853" class="chip">
+                    <!-- Call Icon -->
+                    <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    Call
+                </a>
+                <a href="mailto:Info@tipsavanna.com" class="chip">
+                    <!-- Email Icon -->
+                    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    Email
+                </a>
+            </div>
+            <div class="contact-meta">Phone: +254714497853 (WhatsApp/SMS/Call)</div>
+            <div class="contact-meta">Email: Info@tipsavanna.com</div>
+        </div>
+    </main>
+
+    <div class="global-ad-banner">
+        [Ad Banner Placeholder]
+    </div>
+
+</body>
+</html>
